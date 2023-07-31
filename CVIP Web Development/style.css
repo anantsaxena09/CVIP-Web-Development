@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Trirong', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{ 
+    width: 50%;
+}
+
+.min-h-screen{
+    min-height: 100vh;
+}
+
+.section1{
+   max-height: 110vh; 
+   color: #000000;
+}
+
+.section1 h1{
+    color: #37110d;
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.3rem;
+    float: left;
+    font-weight: bolder;
+    color: rgb(0, 0, 251);
+
+}
+
+.laptop{
+    width: 200px;
+}
+
+.topright .coder{
+    margin-top: 20%;
+    height: 400px;
+    width: 400px;
+}
+
+.section2{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlight{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.btn{
+    padding:7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(227 74 56);;
+}
+
+.text-center{
+    text-align: center;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+
+.intro{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.courses{
+    margin-top: 20px;
+    margin-bottom: 26px;
+}
+
+.main{
+    padding-left: 13px;
+    padding-right: 13px;
+}
